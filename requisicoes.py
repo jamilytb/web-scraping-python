@@ -1,4 +1,4 @@
-# Biblioteca para fazer requisições HTTP 
+# Biblioteca necessária para fazer requisições HTTP 
 import requests
 
 # RASCUNHO DE POSSIVEIS STATUS CODE:
