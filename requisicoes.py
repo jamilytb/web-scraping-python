@@ -1,13 +1,6 @@
 # Biblioteca necessária para fazer requisições HTTP 
 import requests
 
-# RASCUNHO DE POSSIVEIS STATUS CODE:
-# 200 – OK (requisição bem-sucedida)
-# 301/302 – Redirecionamento (o conteúdo foi movido para outra URL)
-# 403 – Proibido (acesso negado)
-# 404 – Não encontrado (a página não existe)
-# 500 – Erro interno do servidor
-
 # Fazendo uma requisição GET para a URL 
 response = requests.get('https://www.neosolar.com.br/loja')
 
